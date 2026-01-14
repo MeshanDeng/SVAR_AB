@@ -1,6 +1,6 @@
 clc
 clear
-cd 'D:\00.Meishan\UNIBO\04.2nd year\05.STRUCTURAL MACROECONOMETRICS\Assignment\ASSIGNMENT 2-Meishan'
+cd '-----'
 
 raw_data = readtable('DATI_FISCAL_CK.txt', 'Delimiter','	'); % load the dataset
 data=table2array(raw_data(:,{'Var4','Var5','Var1'})); % select the variables: Tax, Gov, GDP
